@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 katz_deli = []
@@ -28,3 +29,21 @@ def now_serving(nextinline)
   end
 end
 
+=======
+
+
+ 
+ 
+def line_method(numinline)
+  line_method_array = []
+  if numinline.length == 0
+    puts "The line is currently empty."
+  else
+    line_method_array.each.with_index(0) do |name, index|
+      line_method_array.push("#{index}. #{name}")
+      # push method will push the name into the index 
+    end
+    puts "The line is: #{line_method_array.join(" ")}"
+  end
+end
+>>>>>>> 9415c35134eefd6e717bde15dd3498bd941adfd4
